@@ -43,7 +43,7 @@ Make an ordered list of 3 things you hope to achieve this semester, and elaborat
 3. Learn more about environmental engineering
   1. Go to aguaclara outreach events
   2. Learn as much as possible in classes
-  3. Take advantage of all the resources here
+  3. Take advantage of all the resources at Cornell
 
 - statics and mechanics
 - thermodynamics
