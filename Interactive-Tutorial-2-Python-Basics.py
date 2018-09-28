@@ -56,8 +56,8 @@ print(hydraulic_processes)
 # Don't change the original dict.
 
 analogy = {'knowledge' : 'power', 'France': 'ham'}
-analogy['knowledge'] = 'bacon'
-# Your answer here
+analogy['France'] = 'bacon'
+
 
 print(analogy['knowledge'] + ' ' + analogy['France'])
 
@@ -76,12 +76,13 @@ c = False or not False and True or True
 
 does_it_work = 'maybe'
 
-if (a == True or b == True) and (c == False):
-    does_it_work = yes
+if (a or b) and not c):
+    does_it_work = 'yes'
 else:
-    does_it_work = no
+    does_it_work = 'no'
 
 print(does_it_work)
+
 
 # TODO 6: Write a for loop that multiplies x by each integer from 1 to
 # 30.
@@ -107,7 +108,7 @@ x = 4
 def squared(base):
     return base ** 2
 
-for i in range(5):
+for i in range(6):
     x = squared(x)
 
 print(x)
