@@ -55,19 +55,28 @@ import numpy as np
 import unit_registry as u
 u.default_format = '.2f'
 x=np.sin(4) * u.m
-print(x)
+
 
 
 4. Create a `list` of length 5, and verify the length of your list. Once you've done that, turn your `list` into an `array` and apply units of meters to it. After that, create a 5x5 `array`, extract the middle row and middle column. Verify the size of your 2D `array` and apply units of liters to it.
 
-<!--- Fill you answer here. --->
+myList = [0, 1, 2, 3, 4]
 
+from aide_design.play import*
+import unit_registry as u
 
+myArray = np.array(myList)
+myArray = myArray * u.m
 
+my2DArray = np.array([[1 ,2, 3, 4, 5], [4, 5, 6, 7 ,7], [7, 8, 9, 7, 7],[7, 8, 9, 7, 7],[7, 8, 9, 7, 7]],)
 
+middleRow = my2DArray[1,:]
 
+middleCol = my2DArray[:,1]
 
+sizeMyArray = np.size(my2DArray)
 
+myArrayUnits = myArray * u.L
 
 
 5.  One of the most famous equations for a particle diffusing through a liquid at low Reynolds Number is the Stokes-Einstein Equation where k<sub>B</sub> is the Boltzmann constant, T is the temperature in Kelvin, eta is the dynamic viscosity in kg/(m*s), and r is the particle radius. Write a function that takes a temperature in Kelvin, a particle radius in meters, and a viscosity of water to calculate the diffusion coefficient D.
@@ -83,7 +92,7 @@ from scipy.constants import Boltzmann as kB_sc # I've imported the unitless valu
 
 kB = kB_sc * u.joule / u.kelvin # I've given kB units for you in J/K; you can use the kB variable to give you Boltzmann's constant with units
 
-# Write your code here
+
 
 ```
 
