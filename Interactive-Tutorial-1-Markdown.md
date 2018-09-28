@@ -37,13 +37,13 @@ Write 4 of your favorite words using each type of emphasis:
 Make an ordered list of 3 things you hope to achieve this semester, and elaborate on them with sub items. Then, make an unordered list of 3 classes that you're taking this semester:
 
 1. Branch out
-  1. Get to know people on running club and aguaclara!
+    1. Get to know people on running club and aguaclara!
 2. Learn python
-  1. Practice python on aguaclara
+    1. Practice python on aguaclara
 3. Learn more about environmental engineering
-  1. Go to aguaclara outreach events
-  2. Learn as much as possible in classes
-  3. Take advantage of all the resources at Cornell
+    1. Go to aguaclara outreach events
+    1. Learn as much as possible in classes
+    1. Take advantage of all the resources at Cornell
 
 - statics and mechanics
 - thermodynamics
@@ -53,7 +53,7 @@ Make an ordered list of 3 things you hope to achieve this semester, and elaborat
 
 Write a sentence describing your major, and insert a link to your major's department website:
 
-[My major is environmental engineering.]
+My major is environmental engineering.
 (http://www.cee.cornell.edu/)
 
 ## Images
@@ -62,7 +62,7 @@ Insert the Cornell seal image with:
   1. A relative file path(`/Images/Cornell_University_seal.png`)
   2. A URL (https://raw.githubusercontent.com/AguaClara/aguaclara_tutorial/master/Images/Cornell_University_seal.svg.png)
 
-!https://raw.githubusercontent.com/AguaClara/aguaclara_tutorial/master/Images/Cornell_University_seal.svg.png
+!(https://raw.githubusercontent.com/AguaClara/aguaclara_tutorial/master/Images/Cornell_University_seal.svg.png)
 
 ## Code Formatting
 
